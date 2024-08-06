@@ -58,6 +58,7 @@ void sumTwoNodes() {
   }
 
   Node? _sumTwoNodes(Node? l1, Node? l2) {
+    print("RESULT:");
     return _arrayToNode(_sumNumbersByArray(_nodeToArray(l1), _nodeToArray(l2)));
   }
 
