@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:testing1/roman_integer.dadrt.dart';
+import 'package:testing1/longest_common_string.dart';
+import 'package:testing1/roman_to_integer.dart';
 import 'package:testing1/sum2numbers.dart';
 
 void main() {
@@ -100,6 +101,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 () => Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => RomanToInteger()),
+                ),
+              ),
+              _titleSection(
+                "Longest String Prefix",
+                () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => LongestCommonString()),
                 ),
               ),
             ],
